@@ -45,5 +45,5 @@ env.ParseConfig('pkg-config --libs aruco')
 sources = []
 add_sources(sources, "src")
 
-library = env.SharedLibrary(target=final_lib_path + 'libgdexample', source=sources)
+library = env.SharedLibrary(target=final_lib_path + 'libgdarcamera', source=sources)
 Default(library)
